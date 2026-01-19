@@ -1,4 +1,6 @@
-mlops_labs_venv/
-.DS_Store
-*.pyc
-__pycache__/
+mlops_labs_venv
+_site
+docs
+venv
+.venv
+**/*.ipynb

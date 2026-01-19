@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – MLOps Boeing x WIC</title>
+<title>Need for MLOps</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,10 +26,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -40,20 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c7171a7eb10b10500bbca6e0e7693884.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -73,149 +57,79 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">MLOps Boeing x WIC</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./need_for_mloqs.html"> 
-<span class="menu-text">Need for MLOps</span></a>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">Programming Fundamentals</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">ML Fundamentals</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">Dataset</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">Data Preprocessing</span>
-    </span>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-algorithms" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Algorithms</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-algorithms">    
-        <li class="dropdown-header">Supervised Learning</li>
-        <li class="dropdown-header">Unsupervised Learning</li>
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-version-control" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Version Control</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-version-control">    
-        <li class="dropdown-header">Git</li>
-        <li class="dropdown-header">GitHub</li>
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cloud" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Cloud</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-cloud">    
-        <li class="dropdown-header">Azure</li>
-        <li class="dropdown-header">Azure ML</li>
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-containerization" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Containerization</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-containerization">    
-        <li class="dropdown-header">Docker</li>
-        <li class="dropdown-header">Kubernetes</li>
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-engineering" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Data Engineering</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-engineering">    
-        <li class="dropdown-header">Spark</li>
-        <li class="dropdown-header">Airflow</li>
-    </ul>
-  </li>
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">Model Testing &amp; Validation</span>
-    </span>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-deployment" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Deployment</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-deployment">    
-        <li class="dropdown-header">Jenkins</li>
-        <li class="dropdown-header">GitHub Actions</li>
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-monitoring" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Monitoring</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-monitoring">    
-        <li class="dropdown-header">Prometheus</li>
-        <li class="dropdown-header">Grafana</li>
-    </ul>
-  </li>
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">Security</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">The End.</span>
-    </span>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./need_for_mloqs.html">Foundations</a></li><li class="breadcrumb-item"><a href="./need_for_mloqs.html">Need for MLOps</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Foundations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./need_for_mloqs.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Need for MLOps</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
     </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
+<nav class="navbar navbar-dark bg-primary fixed-top">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <span class="navbar-brand mb-0" style="font-weight:600;">
+      MLOps Lab: Boeing x WIC x UW
+    </span>
 
-<header id="title-block-header" class="quarto-title-block default">
+    <button id="theme-toggle" class="btn btn-outline-light btn-sm" aria-label="Toggle dark/light mode" type="button">
+      🌙
+    </button>
+  </div>
+</nav>
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./need_for_mloqs.html">Foundations</a></li><li class="breadcrumb-item"><a href="./need_for_mloqs.html">Need for MLOps</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Need for MLOps</h1>
 </div>
 
 
@@ -232,11 +146,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<p>Need</p>
 
 
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script>
+(function () {
+  const html = document.documentElement;
+
+  // Bootstrap theme via attribute
+  const storedTheme = localStorage.getItem("theme") || "light";
+  html.setAttribute("data-bs-theme", storedTheme);
+
+  const toggle = document.getElementById("theme-toggle");
+  if (!toggle) return;
+
+  toggle.textContent = storedTheme === "dark" ? "☀️" : "🌙";
+
+  toggle.addEventListener("click", () => {
+    const current = html.getAttribute("data-bs-theme") || "light";
+    const next = current === "dark" ? "light" : "dark";
+
+    html.setAttribute("data-bs-theme", next);
+    localStorage.setItem("theme", next);
+    toggle.textContent = next === "dark" ? "☀️" : "🌙";
+  });
+})()
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -638,6 +575,29 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ 2026, University of Washington
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
