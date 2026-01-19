@@ -3,11 +3,70 @@ project:
 
 website:
   title: "MLOps Boeing x WIC"
+
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Need for MLOps"
+        href: need_for_mloqs.qmd
+      - text: "Programming Fundamentals"
+        href: python_fundamentals.qmd
+      - text: "ML Fundamentals"
+        href: ml_fundamentals.qmd
+      - text: "Dataset"
+        href: dataset.qmd
+      - text: "Data Preprocessing"
+        href: data_preprocessing.qmd
+      - text: "Algorithms"
+        menu:
+          - text: "Supervised Learning"
+            href: supervised_learning.qmd
+          - text: "Unsupervised Learning"
+            href: unsupervised_learning.qmd
+      - text: "Version Control"
+        menu:
+          - text: "Git"
+            href: version_control.qmd
+          - text: "GitHub"
+            href: version_control.qmd#github
+      - text: "Cloud"
+        menu:
+          - text: "Azure"
+            href: cloud.qmd#azure
+          - text: "Azure ML"
+            href: cloud.qmd#azure-ml
+      - text: "Containerization"
+        menu:
+          - text: "Docker"
+            href: containerization.qmd#docker
+          - text: "Kubernetes"
+            href: containerization.qmd#kubernetes
+      - text: "Data Engineering"
+        menu:
+          - text: "Spark"
+            href: data_engineering.qmd#spark
+          - text: "Airflow"
+            href: data_engineering.qmd#airflow
+      - text: "Model Testing & Validation"
+        href: model_testing.qmd
+      - text: "Deployment"
+        menu:
+          - text: "Jenkins"
+            href: deployment.qmd#jenkins
+          - text: "GitHub Actions"
+            href: deployment.qmd#github-actions
+      - text: "Monitoring"
+        menu:
+          - text: "Prometheus"
+            href: monitoring.qmd#prometheus
+          - text: "Grafana"
+            href: monitoring.qmd#grafana
+      - text: "Security"
+        href: security.qmd
+      - text: "Helpful Resources"
+        href: helpful_resources.qmd
+
 
 format:
   html:
@@ -16,6 +75,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
