@@ -1,0 +1,4 @@
+mlops_labs_venv/
+.DS_Store
+*.pyc
+__pycache__/
