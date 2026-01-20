@@ -7,26 +7,60 @@ website:
   search: false
   back-to-top-navigation: true
   navbar: false
+  page-navigation: true
 
   sidebar:
     style: docked
-    collapse-level: 2
+    collapse-level: 3
     contents:
+      - text: 
+
       - text: Home
         href: index.qmd
 
-      - section: Foundations
-        contents:
-          - text: Need for MLOps
-            href: need_for_mloqs.qmd
-          - text: About
-            href: about.qmd
+      - text: Need for MLOps
+        href: need_for_mloqs.qmd
 
-  page-footer:
-    center:
-      - "2026, University of Washington"
-      - icon: github
-        href: https://github.com/
+      - text: Python resources
+        href: python_fundamentals.qmd
+
+      - section: ML Foundations
+        contents:
+          - text: Understanding dataset
+            href: dataset.qmd
+
+          - text: Data Processing
+            href: data_processing.qmd
+          - section: Algorithms
+            contents:
+            - text: Supervised Learning
+              href: supervised.qmd
+
+            - text: Unsupervised Learning
+              href: unsupervised.qmd
+    
+      - text: Version Control
+        href: vc.qmd
+
+      - text: Azure Cloud
+        href: azure.qmd
+
+      - text: Containerization
+        href: containers.qmd
+
+      - text: Data Engineering
+        href: DE.qmd
+
+      - text: Testing & Deployment
+        href: Testing_deploying.qmd
+
+      - text: Monitoring & Maintainance
+        href: monitoring_maintainance.qmd
+
+      - text: Security & Best Practices
+        href: security_best_practices.qmd
+
+
 
 format:
   html:

@@ -106,9 +106,8 @@
     "href": "need_for_mloqs.html",
     "title": "Need for MLOps",
     "section": "",
-    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      🌙\n    \n  \n\n\n\n\n\nNeed\n\n\n\n Back to top",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      ◐\n    \n  \n\n\n\n\n\nNeed\n\n\n\n Back to top",
     "crumbs": [
-      "Foundations",
       "Need for MLOps"
     ]
   },
@@ -117,7 +116,7 @@
     "href": "index.html",
     "title": "MLOps Boeing x WIC",
     "section": "",
-    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      🌙\n    \n  \n\n\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      ◐\n    \n  \n\n\n\n\n\nThis is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top",
     "crumbs": [
       "Home"
     ]
@@ -226,6 +225,132 @@
     "crumbs": [
       "Foundations",
       "Need for MLOps"
+    ]
+  },
+  {
+    "objectID": "python_fundamentals.html",
+    "href": "python_fundamentals.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      ◐\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Python resources"
+    ]
+  },
+  {
+    "objectID": "dataset.html",
+    "href": "dataset.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      ◐\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "ML Foundations",
+      "Understanding dataset"
+    ]
+  },
+  {
+    "objectID": "data_processing.html",
+    "href": "data_processing.html",
+    "title": "About",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      ◐\n    \n  \n\n\n\n\n\nAbout this site\n\n\n\n Back to top",
+    "crumbs": [
+      "ML Foundations",
+      "Data Processing"
+    ]
+  },
+  {
+    "objectID": "DE.html",
+    "href": "DE.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      ◐\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Data Engineering"
+    ]
+  },
+  {
+    "objectID": "containers.html",
+    "href": "containers.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      ◐\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Containerization"
+    ]
+  },
+  {
+    "objectID": "azure.html",
+    "href": "azure.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      🌙\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Azure Cloud"
+    ]
+  },
+  {
+    "objectID": "Testing_deploying.html",
+    "href": "Testing_deploying.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      🌙\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Testing & Deployment"
+    ]
+  },
+  {
+    "objectID": "unsupervised.html",
+    "href": "unsupervised.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      ◐\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "ML Foundations",
+      "Algorithms",
+      "Unsupervised Learning"
+    ]
+  },
+  {
+    "objectID": "supervised.html",
+    "href": "supervised.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      ◐\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "ML Foundations",
+      "Algorithms",
+      "Supervised Learning"
+    ]
+  },
+  {
+    "objectID": "vc.html",
+    "href": "vc.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      ◐\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Version Control"
+    ]
+  },
+  {
+    "objectID": "security_best_practices.html",
+    "href": "security_best_practices.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      🌙\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Security & Best Practices"
+    ]
+  },
+  {
+    "objectID": "monitoring_maintainance.html",
+    "href": "monitoring_maintainance.html",
+    "title": "",
+    "section": "",
+    "text": "MLOps Lab: Boeing x WIC x UW\n    \n\n    \n      🌙\n    \n  \n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Monitoring & Maintainance"
     ]
   }
 ]

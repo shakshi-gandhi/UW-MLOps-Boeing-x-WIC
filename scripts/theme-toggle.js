@@ -9,7 +9,7 @@
   const toggle = document.getElementById("theme-toggle");
   if (!toggle) return;
 
-  toggle.textContent = storedTheme === "dark" ? "☀️" : "🌙";
+  toggle.textContent = storedTheme === "dark" ? "◑" : "◐";
 
   toggle.addEventListener("click", () => {
     const current = html.getAttribute("data-bs-theme") || "light";
@@ -17,7 +17,7 @@
 
     html.setAttribute("data-bs-theme", next);
     localStorage.setItem("theme", next);
-    toggle.textContent = next === "dark" ? "☀️" : "🌙";
+    toggle.textContent = next === "dark" ? "◑" : "◐";
   });
 })()
 </script>
